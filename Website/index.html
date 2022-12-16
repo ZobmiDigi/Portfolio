@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4709d9b8dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+       <div id="header">
+           <div class="container">
+                 <nav>
+               <img src="logo.png" alt="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <i class="fa-solid fa-xmark" class="fas" onclick="closeMenu()"></i>
+                     </ul>
+                     <i class="fa-solid fa-bars" class="fas" onclick="openMenu()"></i>
+                </nav>
+                     <div class="header-text">
+                        <p> Front End Developer</p>
+                        <h1>Hi, I'm <span> Okpara</span> <br> Miracle from Nigeria</h1>
+
+
+                     </div>
+           </div>
+       </div>
+           
+       <div id="about">
+              <div class="container">
+                 <div class="row">
+                    <div class="about-col-1">
+                        <img src="pic.html.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Pellentesque tortor nunc, tempus et lacus et, consectetur pharetra ante. Praesent ornare diam tortor, sed
+                             efficitur nisi malesuada a. Aliquam cursus eros commodo commodo congue. Etiam vitae nibh pharetra, malesuada 
+                             augue efficitur, interdum ante. Donec in magna euismod, consectetur magna sed, commodo metus. Phasellus pretium
+                              viverra purus, ut semper magna cursus vitae. Praesent turpis dui, pellentesque id sem tincidunt, tincidunt
+                               laoreet nisi. Aenean eu nulla nec purus aliquam iaculis nec non turpis. Aenean tincidunt egestas viverra.
+                              Aenean nec ullamcorper nisl, ac semper orci. Vivamus sed semper dui, eu congue mauris.</p>
+
+                              <div class="tab-title">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                                <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                         <div class="tab-contents active-tabe" id="skills">
+                                 <ul>
+                                     <li><span>Web/App</span> <br>  Developer with vast Experience</li>
+                                     <li><span>Online Tutor </span><br>Zobmi Digi Services</li>
+                                     <li><span> Content Content</span><br> Tech based creator</li>
+                                 </ul>
+
+                         </div>
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2020-Current</span> <br> Front End developer at Zobmi Digi Services</li>
+                                <li><span>2014-2019</span><br>Team Lead at Miok Tech Hub.</li>
+                                <li><span>2013</span><br>Freelance Blogger</li>
+                            </ul>
+
+                       </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022</span> <br>Fullstack Development Training at Udemy.com</li>
+                            <li><span>2020</span><br>ICT Training at Amadurs Technology Ltd.</li>
+                            <li><span>2014</span><br>Desktop Publishing at Leadsystem Engineering NIG.LTD.</li>
+                        </ul>
+
+                        </div>
+                    </div> 
+                 </div>
+              </div>
+       </div>
+
+    
+
+       <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Pellentesque tortor nunc,
+                            sed efficitur nisi malesuada a.</p>
+                             <a href="">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-android"></i>
+                        <h2>content creator</h2>
+                            <p>Pellentesque tortor nunc,
+                                 sed efficitur nisi malesuada a.</p>
+                                 <a href="">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>online tutor</h2>
+                                <p>Pellentesque tortor nunc, tempus et lacus et,
+                                     sed efficitur nisi malesuada a.</p>
+                                     <a href="">Learn more</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+                      <!...My work....>    
+
+
+              <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="work40.jpg" alt="">
+                            <div class="layer">
+                                <h3>Web Design class</h3>
+                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                     when an unknown printer took...</p>
+                                <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="work41.jpg" alt=""> 
+                            <div class="layer">
+                                <h3>Content creation </h3>
+                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                     when an unknown printer took...</p>
+                                <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="work">
+                            <img src="work.png" alt="">
+                            <div class="layer">
+                                <h3>Online Tutouring</h3>
+                                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                     when an unknown printer took...</p>
+                                <a href=""><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn">See more</a>
+                </div>
+              </div>        
+                      <!.....Contact us.......>
+
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Zobmidigiservices@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+2349035493846</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="download.pdf.jpg" download="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Miracle. Zobmi <i class="fa-solid fa-heart"></i> Digi Services</p>
+            </div>
+         </div>
+
+
+        <script>
+             var tablinks = document.getElementsByClassName("tab-links");
+             var tabcontents = document.getElementsByClassName("tab-contents");
+
+             function opentab(tabname){
+                        for(tablink of tablinks){
+                            tablink.classList.remove("active-link");
+                        }
+                       
+                        for(tabcontent of tabcontents){
+                            tabcontent.classList.remove("active-tab");
+                        }
+
+                        event.currentTarget.classList.add('active-link');
+                        document.getElementById(tabname).classList.add("active-tab")
+             }
+
+
+        </script>
+
+            <script>
+                 var sidemenu = document.getElementById('sidemenu');
+                 function openMenu(){
+                     sidemenu.style.right = '0';
+                 }
+
+                 function closeMenu(){
+                     sidemenu.style.right = '-200px';
+                 }
+
+
+
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbyqOem4XkBFk_PB3pR73Dz96yy4Ns2WGbbaHLx-BWPjiuPxuKjXuYhzJMkYc1lBct9O/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById('msg')
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = 'Message Sent Successfully'
+                        setTimeout(function(){
+                            msg.innerText = ''
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+</body>
+</html>
